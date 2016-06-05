@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "helvitica",arial black, sans-serif;
+	background-color:#FFFFFF;
+	color: #ffffff;
+}
+h1{
+	text-align: center;
+	margin-top:2%;
+	color: #2356AA;
+}
+
+.container > div{
+	background-color: cyan;
+	border: 3px solid #6a1935;	
+	float: left;
+
+
+
+}
+h2 {
+	background-color:#7d1992;
+	width: auto;
+	text-align: center;
+	width: 30%;
+	position: relative;
+	top: 0;
+	left: 70%;
+	border-left: 3px solid #6a1935;
+	border-bottom: 3px solid #6a1935;
+}
+p{
+	color: #6a1935;
+	margin: 5px;
+}
+
+/*Desktop*/
+@media  screen and (min-width: 992px) {
+.container > div {
+    width: 32%;
+	margin-left: 1%;
+	margin-top:3%;
+  
+  }
+
+}
+
+/*Tablet*/
+@media  (min-width: 768px) and (max-width: 991px) {
+  .chicken, .mutton {
+    width: 48.5%;
+    margin-left: 1%;
+    margin-top:3%;
+  }
+  .steaks {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 1%;
+    
+  }
+}
+
+/*Phone*/
+@media  screen and (max-width: 767px) {
+  .chicken {
+    width: 98%;
+    margin: 1%;
+  }
+  .mutton {
+    width: 98%;
+    margin: 1%;
+  }
+  .steaks {
+    width: 98%;
+    margin: 1%;
+  }
+}
